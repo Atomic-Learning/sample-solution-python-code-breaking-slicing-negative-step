@@ -1,0 +1,26 @@
+
+<h2>Part 1: Understanding Negative Steps</h2>
+
+<py-cell>
+code_string = "q!2refrdgho2!c73 h#eg4hfet@f gvdd4e kkfgc1dab,r3fcgh fguthofeYe"
+</py-cell>
+
+<p>Reverse the entire string and then reverse from the 5th character from the end.</p>
+<py-cell>
+print(code_string[::-1])    # Entire string reversed
+print(code_string[-5::-1])  # Reverse from the 5th character from the end
+</py-cell>
+
+<p>Every 2nd character forward and backward.</p>
+<py-cell>
+print(code_string[::2])     # Every 2nd character forward
+print(code_string[::-2])    # Every 2nd character backward
+</py-cell>
+
+<h2>Part 2: Solve the Puzzle</h2>
+
+<p>Extract every third character counting backward from the penultimate character to reveal a hidden message.</p>
+<py-cell>
+hidden_message = code_string[-2::-3] # Start at index -2 (penultimate character), go backward with a step of 3
+print(hidden_message)
+</py-cell>

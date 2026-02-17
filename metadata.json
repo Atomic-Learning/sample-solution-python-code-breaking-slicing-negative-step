@@ -1,0 +1,16 @@
+{
+    "title": "Sample Solution: String Slicing with Negative Step",
+    "slug": "sample-solution-python-string-slicing-negative-step",
+    "description": "Sample solution showing the use of negative step values and how to extract characters in reverse order to reveal the hidden message.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 3,
+    "prerequisites": [
+        "exercise-python-string-slicing-negative-step"
+    ],
+    "related": []
+}
